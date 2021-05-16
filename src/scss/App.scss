@@ -1,0 +1,85 @@
+/*
+||  GENERAL STYLES
+*/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.App {
+    text-align: center;
+}
+
+
+/*
+||  NAVIGATION BAR
+*/
+.navTop {
+    display: flex;
+    min-height: 10vh;
+    background: rgb(39, 168, 39);
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0%;
+    margin-top: 0;
+}
+
+.navLinkItem {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.navLinkItemHome {
+    font-family: 'Heavitas';
+    text-decoration: none;
+    font-size: 4vw;
+    color: white;
+    padding: 0;
+    letter-spacing: 1vw;
+}
+@media screen and (max-width: 800px) {
+    .navLinkItemHome {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        transition: ease all .5s;
+    }
+}
+
+/*
+||  FEED
+*/
+.feed {
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+
+}
+.feedSection {
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-left: 5vw;
+    font-size: 1.1vw;
+}
+.contentSection {
+    height: 100%;
+    width: 50%;
+}
+
+.feedContent {
+    opacity: 0;
+}
