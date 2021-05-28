@@ -1,0 +1,125 @@
+:root{
+    --clr-purple-dark: rgb(95, 0, 186);
+    --clr-purple-light: rgb(170, 125, 206);
+    --clr-purple-bg: rgb(235, 199, 255);
+    --clr-orange-accent-dark: #F6A81C;
+    --clr-orange-accent-light: #F7D22B;
+
+    --gradient: linear-gradient(
+        45deg,
+        var(--clr-purple-dark),
+        var(--clr-purple-light),
+        var(--clr-orange-accent-light)
+    );
+  }
+
+html,
+body {
+    background: none;
+}
+.navHome {
+    display: flex;
+    min-height: 10vh;
+    background: none;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 10;
+    position: absolute;
+    top: 30%;
+}
+
+.navHomeLinks {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0%;
+    margin-top: 0;
+    z-index: auto;
+}
+
+.navHomeLinkItem {
+    display: flex;
+    font-size: 2rem;
+    font-family: "Fengardoneue-Regular";
+    color: white;
+    text-decoration: none;
+    position: relative;
+    
+    cursor: url('../media/img/HandFinger.png'), pointer;
+}
+
+.navHomeLinkItem::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: currentColor;
+    z-index: 4;
+    transform: transition .6s;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    color: var(--clr-orange-accent-dark);
+}
+.navHomeLinkItem:hover:after {
+    transform: transition .6s;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.navHomeLinkItemHome {
+    font-family: 'Heavitas';
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 9rem;
+    color: transparent;
+    padding: 0;
+    transform: transition .3s ease-in;
+    background-image: var(--gradient);
+    background-clip: text;
+    background-size: 10000%;
+    animation: text-animation 15s infinite;
+}
+
+
+
+// .navHomeLinkItemHome:hover {
+//     background-image: var(--gradient);
+//     background-clip: text;
+//     background-size: 10000%;
+//     animation: text-animation 15s alternate-reverse ;
+// }
+@keyframes text-animation {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navHomeLinkItemHome {
+        font-size: 4rem;
+        letter-spacing: .2rem;
+        transition: ease all .5s;
+    }
+}
+
+
+
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 0px 60px 20px rgba(0,0,0,0.35);
+    top: 0;
+    left: 0;
+}

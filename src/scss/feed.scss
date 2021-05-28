@@ -1,0 +1,146 @@
+:root{
+    --clr-purple-dark: rgb(95, 0, 186);
+    --clr-purple-light: rgb(170, 125, 206);
+    --clr-purple-bg: rgb(203, 148, 233);
+    --clr-orange-accent-dark: #F6A81C;
+    --clr-orange-accent-light: #F7D22B;
+  }
+/*
+||  FEED
+*/
+
+body {
+    overflow-y: hidden;
+    background: var(--clr-purple-bg);
+}
+.feed {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    margin: 0;
+
+    padding: 2vw;
+    display: flex;
+    text-align: left;
+
+    overflow-y: auto;
+}
+.feedHeadline {
+    position: fixed;
+    font-size: 1.1vw;
+    font-family: 'Fengardoneue-Regular';
+    cursor: url('../media/img/HandFinger.png'), pointer;
+}
+.feed ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.feedItem {
+    padding: 1vw;
+    margin: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+    color: black;
+    list-style: none;
+    width: 50%;
+    width: fit-content;
+    
+    transition: .2s ease;
+}
+
+.feedItem:hover {
+    // color: rgb(39, 168, 39);
+    color: var(--clr-purple-light);
+}
+
+.feedItem > .feedContent {
+    opacity: 0;
+    top: 0;
+    right: 0;
+    width: 50%;
+    z-index: 10;
+    padding: 2vw;
+
+    transform: translateY(-100%);
+    transform-origin: right;
+    transition: transform .5s ease-in;
+}
+.feedContent {
+    position: absolute;
+    width: 100%;
+}
+.feedItem h1 {
+    margin-top: 0;
+    font-family: "Fengardoneue-Black";
+}
+.feedItem:focus-within {
+    color: var(--clr-purple-dark);
+}
+.feedItem:focus-within > .feedContent {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+// Content Text
+.contentHeadline {
+    padding-left: 1vw;
+    font-size: 3rem;
+}
+.contentText {
+    padding: 1vw;
+    position: relative;
+    font-family: "Fengardoneue-Regular";
+    font-size: 1.3rem;
+    color: black;
+    transition: .4s ease;
+    width: fit-content;
+    z-index: 1;
+    border-radius: 1.5rem;
+
+}
+.contentText:hover {
+    // color: var(--clr-purple-dark);
+    transform: scale(1.01);
+    background: rgba(255,255,255,.4);
+}
+
+
+
+
+// CONTENT IMAGES
+.feed img {
+    position: relative;
+    float: right;
+    width: 22vw;
+    border-radius: 1.5rem;
+    transition: transform .2s;
+    margin-left: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 10;
+}
+.feed img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 -3px 15px rgba(black, .3);
+}
+
+// CONTENT VIDEOS
+
+.contentVideo {
+    // margin-left: 15%;
+    width: 95%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 1.5rem;
+}
+
+#si1 {
+    float: left;
+}

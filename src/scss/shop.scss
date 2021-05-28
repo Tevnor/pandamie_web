@@ -1,0 +1,162 @@
+/*
+|| SHOP
+*/
+:root{
+    --clr-purple-dark: rgb(95, 0, 186);
+    --clr-purple-light: rgb(170, 125, 206);
+    --clr-purple-bg: rgb(235, 207, 250);
+    --clr-orange-accent-dark: #F6A81C;
+    --clr-orange-accent-light: #F7D22B;
+
+  }
+
+.shop {
+    padding-left: 10vw;
+    width: 100%;
+    height: 85vh;
+    overflow-y: auto;
+}
+
+.shirts {
+    display: flex;
+}
+.hoodies {
+    display: flex;
+}
+
+.shopItem {
+    display: flex;
+    position: relative;
+    background-color: var(--clr-purple-dark);
+    padding: 10rem 0 0;
+    width: 100%;
+
+    color: rgba(255,255,255,.8);
+    font-family: "Fengardoneue-Regular";
+    font-size: 1.2rem;
+    text-align: left;
+
+    height: calc(22vw*1.22);
+    width: 22vw;
+    background-color: var(--clr-purple-light);
+    background-image: url("../media/img/blackshirt.png");
+    background-size: cover;
+    overflow: hidden;
+    transition: transform .4s ease;
+    z-index: 10;
+    border-radius: 1.5rem;
+
+    margin: 2vw;
+}
+.shopItem:hover {
+    transform: scale(1.04);
+    box-shadow: 0 -3px 15px rgba(black, .3);
+}
+#si2 {
+    background-image: url("../media/img/purpleshirt.png");
+}
+#si3 {
+    background-image: url("../media/img/greenshirt.png");
+}
+#si4 {
+    background-image: url("../media/img/purplehoodie.png");
+    background-position: -40px;
+}
+#si5 {
+    background-image: url("../media/img/greentote.png");
+    background-position: -30px -20px;
+}
+.shopItemContent {
+    // height: 100%;
+    --padding: 1.5em;
+    padding: var(--padding);
+    background: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.2) 25%,
+        rgba(0,0,0,0.9)
+    );
+    transform: translateY(65%);
+    transition: transform .5s ease-in;
+}
+
+.shopItemContent > *:not(.shopItemTitle) {
+    opacity: 0;
+    
+}
+.shopItem:hover .shopItemContent {
+    transform: translateY(20%);
+    transition-delay: .5s;
+}
+.shopItem:hover .shopItemContent > *:not(.shopItemTitle) {
+    opacity: 1;
+    transition: .5s ease;
+    // transition-delay: 1s;
+}
+
+.shopItemTitle {
+    position: relative;
+    width: max-content;
+    font-size: 2rem;
+}
+.shopItemTitle::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom: -5px;
+    width: calc(100% + var(--padding));
+    background: var(--clr-orange-accent-light);
+
+    transform: scaleX(0);
+    transition: transform .6s ease;
+    transform-origin: left;
+}
+.shopItem:hover .shopItemTitle::after {
+    transform: scaleX(1);
+}
+
+.shopButton {
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    border: none;
+    border-radius: .3rem;
+    font-family: "Fengardoneue-Regular";
+    font-size: 1rem;
+    color: black;
+    background-color: var(--clr-orange-accent-light);
+    padding: 0.5em 1.25em;
+    transition-delay: 0s;
+}
+.shopButton:hover,
+.shopButton:focus {
+    background-color: #F6A81C;
+}
+
+// Color Selector
+.colorButton {
+    cursor: pointer;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    transition: transform .5s ease;
+    margin-left: .5em;
+    transform: translateY(-.25em);
+
+}
+#cpb1 {
+    background-color: black;
+}
+#cpb2 {
+    background-color: purple;
+}
+#cpb3 {
+    background-color: green;
+}
+.shopItem:hover .colorPicker{
+    opacity: 1;
+    transition: transform 1s ease;
+    transition-delay: 1.2s;
+}

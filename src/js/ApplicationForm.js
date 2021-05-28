@@ -3,7 +3,7 @@ import '../scss/App.scss';
 
 function ApplicationForm() {
   return (
-    <div className="ApplicationForm">
+    <div className="applicationForm">
       
     </div>
   );
