@@ -10,7 +10,7 @@ import Shop from './Shop'
 
 function App() {
   return (    
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="app">
         <Switch>
         <Route path="/" exact component={Home}/>  
