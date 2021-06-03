@@ -17,12 +17,11 @@
     cursor: url('../media/img/cursor.png'), default;
 
 }
-
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
     width: 100%;
+    min-height: auto;
     background: var(--clr-purple-bg);
     overflow-x: hidden;
 
@@ -42,7 +41,7 @@ html, body {
 .navTop {
     // position: fixed;
     display: flex;
-    min-height: 10vh;
+    height: auto;
     background: rgb(95, 0, 186);
     width: 100%;
     justify-content: space-around;
@@ -112,6 +111,7 @@ html, body {
 #logoWhite {
     width: 1ch;
     margin-right: 3px;
+    transform: translateY(5%);
 }
 // Bottom
 // .navBottom {

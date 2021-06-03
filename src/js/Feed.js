@@ -82,7 +82,7 @@ function Feed() {
             </div>
           </li>
           <li className="feedItem" tabindex="0">
-            <b className="feedHeadline">18.06.2031 - "Wie konnte das überhaupt passieren?": Expertenrunde in Live-Konferenz</b>
+            <b className="feedHeadline">18.06.2031 - "Wie konnte das überhaupt passieren?"</b>
             <div className="feedContent">
               <h1 className="contentHeadline">"Wie konnte das überhaupt passieren?" - Expertenrunde in Live-Konferenz</h1>
               <p className="contentText">
@@ -100,7 +100,7 @@ function Feed() {
             </div>
           </li>
           <li className="feedItem" tabindex="0">
-            <b className="feedHeadline">16.06.2031 - Mit Gummistiefeln durch die Königsstraße: Pandaexkremente unkontrollierbar</b>
+            <b className="feedHeadline">16.06.2031 - Mit Gummistiefeln durch die Königsstraße...</b>
             <div className="feedContent">
               <h1 className="contentHeadline">Mit Gummistiefeln durch die Königsstraße: Pandaexkremente unkontrollierbar</h1>
               <p className="contentText">
@@ -112,7 +112,7 @@ function Feed() {
             </div>
           </li>
           <li className="feedItem" tabindex="0">
-            <b className="feedHeadline">15.06.2031 - Auf den Gleisen eingeschlafen: Pandas sorgen für S-Bahn Chaos</b>
+            <b className="feedHeadline">15.06.2031 - Auf den Gleisen eingeschlafen...</b>
             <div className="feedContent">
               <h1 className="contentHeadline">Auf den Gleisen eingeschlafen: Pandas sorgen für S-Bahn Chaos</h1>
               <img className="zuganzeiger" src={zuganzeiger} alt="zuganzeiger" />

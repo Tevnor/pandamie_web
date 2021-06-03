@@ -16,10 +16,10 @@ body {
 .feed {
     position: relative;
     width: 100%;
-    min-height: 90vh;
+    min-height: 84.5vh;
     margin: 0;
 
-    padding: 2vw;
+    padding: 2rem;
     display: flex;
     text-align: left;
 
@@ -27,7 +27,7 @@ body {
 }
 .feedHeadline {
     position: fixed;
-    font-size: 1.1vw;
+    font-size: 1.5rem;
     font-family: 'Fengardoneue-Regular';
     cursor: url('../media/img/HandFinger.png'), pointer;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .feedItem {
-    padding: 1vw;
+    padding: 1rem;
     margin: 0;
     left: 0;
     border-right: none;
@@ -94,7 +94,7 @@ body {
     font-size: 3rem;
 }
 .contentText {
-    padding: 1vw;
+    padding: 1.5rem;
     position: relative;
     font-family: "Fengardoneue-Regular";
     font-size: 1.3rem;
@@ -109,6 +109,48 @@ body {
     // color: var(--clr-purple-dark);
     transform: scale(1.01);
     background: rgba(255,255,255,.4);
+}
+
+
+@media only screen and (max-width: 1700px)  {
+    .contentHeadline {
+        font-size: 2rem;
+    }
+    .feedHeadline {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 1500px)  {
+    .contentHeadline {
+        font-size: 1.5rem;
+    }
+    .feedHeadline {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 1200px)  {
+    .contentHeadline {
+        font-size: 1.5rem;
+    }
+    .feedHeadline {
+        font-size: 1.0rem;
+    }
+}
+@media only screen and (max-width: 1000px)  {
+    .contentHeadline {
+        font-size: 1.5rem;
+    }
+    .feedHeadline {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 920px)  {
+    .feedContent {
+        position: relative;
+    }
+    .feedItem .feedContent {
+        width: 100%;
+    }
 }
 
 
