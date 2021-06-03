@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pandamie_web/static/css/main.800e66b6.chunk.css",
+    "main.js": "/pandamie_web/static/js/main.b946a21d.chunk.js",
+    "main.js.map": "/pandamie_web/static/js/main.b946a21d.chunk.js.map",
+    "runtime-main.js": "/pandamie_web/static/js/runtime-main.24948554.js",
+    "runtime-main.js.map": "/pandamie_web/static/js/runtime-main.24948554.js.map",
+    "static/js/2.c59c5cf4.chunk.js": "/pandamie_web/static/js/2.c59c5cf4.chunk.js",
+    "static/js/2.c59c5cf4.chunk.js.map": "/pandamie_web/static/js/2.c59c5cf4.chunk.js.map",
+    "static/js/3.c78158cd.chunk.js": "/pandamie_web/static/js/3.c78158cd.chunk.js",
+    "static/js/3.c78158cd.chunk.js.map": "/pandamie_web/static/js/3.c78158cd.chunk.js.map",
+    "index.html": "/pandamie_web/index.html",
+    "static/css/main.800e66b6.chunk.css.map": "/pandamie_web/static/css/main.800e66b6.chunk.css.map",
+    "static/js/2.c59c5cf4.chunk.js.LICENSE.txt": "/pandamie_web/static/js/2.c59c5cf4.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/pandamie_web/static/media/fengardoneue_regular-webfont.b237cb30.woff",
+    "static/media/Panda_Flyer.22edfb9d.png": "/pandamie_web/static/media/Panda_Flyer.22edfb9d.png",
+    "static/media/Panda_Poster2.62e2fbb5.png": "/pandamie_web/static/media/Panda_Poster2.62e2fbb5.png",
+    "static/media/Zuganzeiger.e3b5311a.jpg": "/pandamie_web/static/media/Zuganzeiger.e3b5311a.jpg",
+    "static/media/bike1.dd9ead50.png": "/pandamie_web/static/media/bike1.dd9ead50.png",
+    "static/media/bike2.ef3b3f3f.png": "/pandamie_web/static/media/bike2.ef3b3f3f.png",
+    "static/media/shop.scss": "/pandamie_web/static/media/purpleshirt.dec4493d.png",
+    "static/media/logo_white.2c60efed.png": "/pandamie_web/static/media/logo_white.2c60efed.png",
+    "static/media/panda.e8e2fc1c.mp4": "/pandamie_web/static/media/panda.e8e2fc1c.mp4",
+    "static/media/panda1.a622d290.png": "/pandamie_web/static/media/panda1.a622d290.png",
+    "static/media/ubahn-panda.464e6514.jpg": "/pandamie_web/static/media/ubahn-panda.464e6514.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24948554.js",
+    "static/js/2.c59c5cf4.chunk.js",
+    "static/css/main.800e66b6.chunk.css",
+    "static/js/main.b946a21d.chunk.js"
+  ]
+}
