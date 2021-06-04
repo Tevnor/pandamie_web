@@ -59,7 +59,7 @@ Beim Ausfüllen des Formulars fährt beim sukzessiven Klicken auf die Input-Feld
 Für den Shop habe ich mit Logos und Illustrationen meiner Kommilitoninnen ein paar Merch-Items entworfen.\
 Die Shirts sind schlicht gehalten, das Polygon-Logo als Motiv auf der Brust.\
 Der Hoodie mit etwas verspieltererem Motiv - ein Panda der an etwas Bambus knabbert.\
-Die Tote-Bags mit großen Pandamie Schriftzug  und einem faulen Panda der sich darauf ausruht.\
+Die Tote-Bags mit großen Pandamie Schriftzug  und einem faulen Panda der sich darauf ausruht.
 
 Bei Hover über die Shop-Elemente wird der Beschreibungstext von unten hochgefahren, ein Schatten-Gradient dient zur besser Lesbarkeit.\
 Unter der überschrift wird wieder ein Unterstrich gezogen, der sich genau an die Länge des Item-Titels anpasst.
