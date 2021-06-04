@@ -26,7 +26,7 @@ function Home() {
           </video>
           <div className="shadow"></div>
       </div>
-      <a className="credit" href="https://www.freestock.com/free-videos/cute-giant-panda-bear-eating-bamboo-3816065">Video used under license from Freestock.com</a>
+      <a className="credit" target="_blank" href="https://www.freestock.com/free-videos/cute-giant-panda-bear-eating-bamboo-3816065">Video used under license from Freestock.com</a>
     </div>
 
   );
