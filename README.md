@@ -1,6 +1,6 @@
 # Kapitel 7 - Gruppenarbeit
 
-Eigenanteil von:\
+Gruppe 8, Eigenanteil von:\
 Tevin Zielke
 @tz024
 
