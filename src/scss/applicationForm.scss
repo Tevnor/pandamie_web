@@ -6,6 +6,7 @@
     width: 100%;
     min-height: 85vh;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 .formSection {
     box-sizing: border-box;
@@ -22,21 +23,34 @@ input[type=text], select, textarea{
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+    font-family: "Fengardoneue-Regular";
+    font-size: 1rem;
+    cursor: url('../media/img/HandFinger.png'), pointer;
   }
 
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: "Fengardoneue-Regular";
+    font-size: 1.2rem;
 }
 
 input[type=submit] {
     background-color: #04AA6D;
     color: white;
+    margin-top: 1.3rem;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: url('../media/img/HandFinger.png'), pointer;
     float: right;
+    font-family: "Fengardoneue-Regular";
+    font-size: 1rem;
+    width: 10%;
+}
+input[type=submit]:hover {
+    background-color: #04c77f;
+    box-shadow: 0 -1px 5px rgba(black, .3);
 }
 .container {
     margin-left: auto;
@@ -167,18 +181,21 @@ input[type=submit] {
 }
 
 #row0:focus-within ~ #bikeRow {
-    transform: translateX(-50%);
+    transform: translateX(-60%);
 }
 #row1:focus-within ~ #bikeRow {
-    transform: translateX(-25%);
+    transform: translateX(-35%);
 }
 #row2:focus-within ~ #bikeRow{
-    transform: translateX(0%);
+    transform: translateX(-10%);
 }
 #row3:focus-within ~ #bikeRow {
-    transform: translateX(25%) rotate(0deg);
+    transform: translateX(15%) rotate(0deg);
 }
 #row4:focus-within ~ #bikeRow {
+    transform: translateX(40%) rotate(0deg);
+}
+#row5:focus-within ~ #bikeRow {
     transform: translateX(100%) rotate(-15deg); 
-    // transition: transform 15s;
+    transition: transform 15s;
 }

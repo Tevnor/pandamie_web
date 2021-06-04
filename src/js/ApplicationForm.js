@@ -43,13 +43,21 @@ function ApplicationForm() {
           </div>
           <div className="row" id="row4">
             <div className="col-25">
-              <label for="subject">Anschreiben</label>
+              <label for="location">Betreff</label>
             </div>
             <div className="col-75">
-              <textarea id="subject" name="subject" rows="4" placeholder="Erzähl uns, warum du als KandidatIn geeignet wärst..." ></textarea>
+              <input type="text" id="sub" name="location" placeholder="Dein Betreff..." />
             </div>
           </div>
           <div className="row" id="row5">
+            <div className="col-25">
+              <label for="subject">Anschreiben</label>
+            </div>
+            <div className="col-75">
+              <textarea id="subject" name="subject" rows="4" placeholder="Erzähl uns von deinem Anliegen..." ></textarea>
+            </div>
+          </div>
+          <div className="row" id="row6">
             <input type="submit" value="Submit" />
           </div>
           <div className="row" id="bikeRow">

@@ -20,6 +20,7 @@ body {
     margin: 0;
 
     padding: 2rem;
+    
     display: flex;
     text-align: left;
 
@@ -30,7 +31,10 @@ body {
     font-size: 1.5rem;
     font-family: 'Fengardoneue-Regular';
     cursor: url('../media/img/HandFinger.png'), pointer;
+
+    
 }
+
 .feed ul {
     margin: 0;
     padding: 0;
@@ -50,6 +54,8 @@ body {
     width: fit-content;
     
     transition: .2s ease;
+
+    padding-bottom: 1.5vw;
 }
 
 .feedItem:hover {
@@ -90,11 +96,13 @@ body {
 
 // Content Text
 .contentHeadline {
-    padding-left: 1vw;
+    padding-left: 1.5vw;
     font-size: 3rem;
+    margin-bottom: unset;
 }
 .contentText {
-    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     position: relative;
     font-family: "Fengardoneue-Regular";
     font-size: 1.3rem;
@@ -103,15 +111,42 @@ body {
     width: fit-content;
     z-index: 1;
     border-radius: 1.5rem;
-
 }
 .contentText:hover {
-    // color: var(--clr-purple-dark);
+    color: var(--clr-purple-dark);
     transform: scale(1.01);
+}
+
+.t-m-container {
+    padding: .8rem;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+}
+.t-m-container:hover {
     background: rgba(255,255,255,.4);
+}
+#tmc-p002 {
+    padding-bottom: 11rem;
+}
+#tmc-top-1 {
+    margin-bottom: unset;
+}
+#tmc-top-2 {
+    margin-bottom: unset;
+}
+#tmc-top-4 {
+    margin-bottom: unset;
 }
 
 
+@media only screen and (min-width: 2000px)  {
+    .contentHeadline {
+        font-size: 4rem;
+    }
+    .feedHeadline {
+        font-size: 2.3rem;
+    }
+}
 @media only screen and (max-width: 1700px)  {
     .contentHeadline {
         font-size: 2rem;
@@ -161,28 +196,64 @@ body {
     position: relative;
     float: right;
     width: 22vw;
+    max-width: 800px;
     border-radius: 1.5rem;
     transition: transform .2s;
-    margin-left: 1vw;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 1rem;
     z-index: 10;
 }
 .feed img:hover {
     transform: scale(1.05);
     box-shadow: 0 -3px 15px rgba(black, .3);
 }
+.feed .anti001 {
+    width: 14vw;
+}
 
 // CONTENT VIDEOS
 
 .contentVideo {
-    // margin-left: 15%;
     width: 95%;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 1.1vw;
+    margin-right: 1.1vw;
     border-radius: 1.5rem;
+    cursor: url('../media/img/HandFinger.png'), pointer;
+}
+.talkVideo {
+    position: relative;
+    width: 60%;
+    border-radius: 1.5rem;
+    cursor: url('../media/img/HandFinger.png'), pointer;
+    z-index: 12;
 }
 
-#si1 {
+#feed-si1 {
+    margin: 1.5rem;
     float: left;
+}
+.anti001 {
+    width: 10vw;
+}
+.feed .anti002 {
+    margin: 1rem;
+}
+#mlsInterview {
+    float: right;
+    margin: 1rem;
+}
+#mlsTalkshow1 {
+    float: right;
+    margin: 1rem;
+}
+#mlsTalkshow2 {
+    float: left;
+    margin: 1rem;
+}
+#mlsTalkshow3 {
+    float: right;
+    margin: 1rem;
+}
+#mlsTalkshow4 {
+    float: left;
+    margin: 1rem;
 }

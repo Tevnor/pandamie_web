@@ -12,9 +12,9 @@ function NavTop() {
           <img id="logoWhite" src={logoWhite} alt="logo_white" />
           mie</NavLink>
         <ul className="navLinks">
-          <NavLink className="navLinkItem" to="/about">About</NavLink>
+          <NavLink className="navLinkItem" to="/about">Intro</NavLink>
           <NavLink className="navLinkItem" to="/feed">Feed</NavLink>
-          <NavLink className="navLinkItem" to="/apply">Apply</NavLink>
+          <NavLink className="navLinkItem" to="/apply">Kontakt</NavLink>
           <NavLink className="navLinkItem" to="/shop">Shop</NavLink>
         </ul>
       </div>

@@ -84,14 +84,6 @@ body {
     animation: text-animation 15s infinite;
 }
 
-
-
-// .navHomeLinkItemHome:hover {
-//     background-image: var(--gradient);
-//     background-clip: text;
-//     background-size: 10000%;
-//     animation: text-animation 15s alternate-reverse ;
-// }
 @keyframes text-animation {
     0% {
         background-position: left;
@@ -111,9 +103,6 @@ body {
         transition: ease all .5s;
     }
 }
-
-
-
 
 .shadow {
     position: absolute;

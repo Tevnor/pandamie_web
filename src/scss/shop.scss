@@ -9,7 +9,7 @@
   }
 
 .shop {
-    padding-left: 10vw;
+    padding-left: 10.5vw;
     width: 100%;
 }
 
@@ -19,6 +19,9 @@
 .hoodies {
     display: flex;
 }
+.totes {
+    display: flex;
+}
 
 .shopItem {
     display: flex;
@@ -26,6 +29,7 @@
     background-color: var(--clr-purple-dark);
     padding: 10rem 0 0;
     max-width: 35ch;
+    min-width: 200px;
 
     color: rgba(255,255,255,.8);
     font-family: "Fengardoneue-Regular";
@@ -35,7 +39,7 @@
     --width: 22vw;
     width: var(--width);
     --height: calc(var(--width)*1.22);
-    height: var(--height);
+    min-height: var(--height);
     background-color: var(--clr-purple-light);
     background-image: url("../media/img/blackshirt.png");
     background-size: cover;
@@ -61,8 +65,13 @@
     background-position: -40px;
 }
 #si5 {
+    background-image: url("../media/img/blacktote.png");
+}
+#si6 {
+    background-image: url("../media/img/orangetote.png");
+}
+#si7 {
     background-image: url("../media/img/greentote.png");
-    background-position: -30px -20px;
 }
 
 .shopItemContent {
@@ -86,7 +95,7 @@
     
 }
 .shopItem:hover .shopItemContent {
-    transform: translateY(-70%);
+    transform: translateY(-75%);
     transition-delay: .2s;
 }
 .shopItem:hover .shopItemContent > *:not(.shopItemTitle) {
@@ -98,7 +107,7 @@
 .shopItemTitle {
     position: relative;
     width: max-content;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 .shopItemTitle::after {
     content: "";
@@ -119,7 +128,7 @@
 }
 
 .shopButton {
-    cursor: pointer;
+    cursor: url('../media/img/HandFinger.png'), pointer;
     display: inline;
     text-decoration: none;
     border: none;
@@ -148,7 +157,7 @@
     border: none;
     transition: transform .5s ease;
     margin-left: .1vw;
-    // transform: translateY(80%);
+    cursor: url('../media/img/HandFinger.png'), pointer;
 
 }
 // @media only screen and (max-width: 1700px)  {
