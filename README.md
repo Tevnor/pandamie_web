@@ -51,7 +51,7 @@ Hier befindet sich ein Formular, falls man Konatkt zu der Initiative aufnehmen m
 Bei Hover wird die Formularkomponente skaliert und mit einer Schattierung versehen, bei Klick wird diese Veränderung festgesetzt.\
 Beim Ausfüllen des Formulars fährt beim sukzessiven Klicken auf die Input-Felder ein Panda auf dem Fahrrad ins Bild. Beim letzten Textfeld rast er mit einem Wheelie davon.
 
-(Der `Submit` ist nicht funktional und führt zu einem 404-Fehhler, also am besten nicht klicken)
+(Der `Submit`-Button ist nicht funktional und führt zu einem 404-Fehhler, also am besten nicht klicken)
 
 
 ### `Shop`
