@@ -11,10 +11,10 @@ Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln. Ei
 [Link zur Seite.](https://tevnor.github.io/pandamie_web/)
 
 Mein Fokus hierbei lag bei der Auslegung der verschiedenen Komponenten, sowie die User mit verschiedenen kleinen Mikrointeraktionen mit ein zu binden.\
-Ich habe die Seite mit React geschrieben, doch die Interaktionen sind komplett ohne JavaScript, also in reinem CSS.\
+Ich habe die Seite mit React geschrieben, doch die Interaktionen sind komplett ohne JavaScript, also in reinem CSS.
 
 Mit der Responsiveness hapert es allerdings noch ein Bisschen, es wird sein, dass die Elemente bei manchen Bildschirmauflösungen verzogen werden.\
-Am besten in 1920x1080p aufrufen.
+Am besten in `1920x1080` aufrufen.
 
 ### `Landing Page)`
 
