@@ -112,3 +112,20 @@ body {
     top: 0;
     left: 0;
 }
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    cursor: url('../media/img/HandFinger.png'), pointer;
+    font-family: "Fengardoneue-Regular";
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: .5s;
+    color: var(--clr-purple-light);
+
+}
+.credit:hover {
+    color: var(--clr-orange-accent-dark);
+}
