@@ -12,7 +12,9 @@ Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln. Ei
 
 Beim ersten Aufruf der Seite geriet man auf die Landing Page.\
 In der Mitte die große Überschrift mit animiertem Gradient zwischen den Hauptfarbtönen der Initiative, sowie integriertem Polygon-Logo.\
-Darunter ein Call-to-Action um die Hauptseite zu betreten, mit Hover-Effekt, der eine Unterschrift zieht. Zudem verändert sich der Cursor (Handschlag zwischen Panda un Mensch), wenn man über bestimmte Felder hovert zu einem Pointer mit ausgetrecktem Zeigefinger.
+Darunter ein Call-to-Action um die Hauptseite zu betreten, mit Hover-Effekt, der eine Unterschrift zieht.\
+Zudem verändert sich der Cursor (Handschlag zwischen Panda un Mensch),\
+wenn man über bestimmte Felder hovert zu einem Pointer mit ausgetrecktem Zeigefinger.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
