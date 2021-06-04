@@ -1,15 +1,18 @@
-# Getting Started with Create React App
+# Kapitel 7 - Gruppenarbeit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eigenanteil von:\
+Tevin Zielke
+@tz024
 
-## Available Scripts
+## Pandamie Webseite
 
-In the project directory, you can run:
+Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln. Ein bisschen Schauspielerei kam auch noch dazu.
 
-### `npm start`
+### `Landing Page`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Beim ersten Aufruf der Seite geriet man auf die Landing Page.\
+In der Mitte die große Überschrift mit animiertem Gradient zwischen den Hauptfarbtönen der Initiative, sowie integriertem Polygon-Logo.\
+Darunter ein Call-to-Action um die Hauptseite zu betreten, mit Hover-Effekt, der eine Unterschrift zieht. Zudem verändert sich der Cursor (Handschlag zwischen Panda un Mensch), wenn man über bestimmte Felder hovert zu einem Pointer mit ausgetrecktem Zeigefinger.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
