@@ -4,9 +4,15 @@ Eigenanteil von:\
 Tevin Zielke
 @tz024
 
+Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln. Ein bisschen Schauspielerei kam auch noch dazu.
+
 ## Pandamie Webseite
 
-Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln. Ein bisschen Schauspielerei kam auch noch dazu.
+Mein Fokus hierbei lag bei der Auslegung der verschiedenen Komponenten, sowie die User mit verschiedenen kleinen Mikrointeraktionen mit ein zu binden.\
+Ich habe die Seite mit React geschrieben, doch die Interaktionen sind komplett ohne JavaScript, also in reinem CSS.\
+
+Mit der Responsiveness hapert es allerdings noch ein Bisschen, es wird sein, dass die Elemente bei manchen Bildschirmauflösungen verzogen werden.\
+Am besten in 1920x1080p aufrufen.
 
 ### `Landing Page`
 
@@ -14,62 +20,46 @@ Beim ersten Aufruf der Seite geriet man auf die Landing Page.\
 In der Mitte die große Überschrift mit animiertem Gradient zwischen den Hauptfarbtönen der Initiative, sowie integriertem Polygon-Logo.\
 Darunter ein Call-to-Action um die Hauptseite zu betreten, mit Hover-Effekt, der eine Unterschrift zieht.\
 Zudem verändert sich der Cursor (Handschlag zwischen Panda un Mensch),\
-wenn man über bestimmte Felder hovert zu einem Pointer mit ausgetrecktem Zeigefinger.
+wenn man über bestimmte Felder hovert zu einem Pointer mit ausgetrecktem Zeigefinger.\
+Bei Klick auf Enter wird man auf die Hauptseite geleitet.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### `Navigationsleiste`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Auf der Navigationsleiste ist wie auf der Landing Page eine großer Header, der bei Hover seine Farbe verändert und bei Klick wieder zurück auf die Landing Page führt.\
+Die Reiter werden bei Hover mit Farbübergang, sowie Unterstrich versehen und via Klick gelangt man auf die verschiedenen Unterseiten.
 
-### `npm run build`
+### `Intro`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Auf der Intro-Seite befindet sich ein paragraphisierter Einleitungstext, der mittig zentriert ist, um links und rechts für White-Space zu sorgen.
+Belebt wird dieser White-Space mit einem King-Kong-Panda am Stuttgarter Fernsehturm rechts und einem Panda, der mit einem Hover-Effekt über die Paragraphen animiert ist.\
+Bei Hover über Textfeldern ist ein leichter Skaliereffekt, sowie eine Farbveränderung zu sehen.\
+Bei Hover über Bildelemente ist noch ein Schattierung als Box-Shadow angebracht, um die Biler hervorzuheben.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Feed`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Der Feed ist in links/rechts Unterteilt:\
+Links sind die Überschriften mit dezenter Farbveränderung beim Hovern.\
+Rechts öffnen sich bei Klick auf die Links die Beiträge mit paragraphisch angeordneten Komponenten mit Bildern oder abspielbaren Videos.\
+Hier lag es der Hauptbestandteil darin, die ganzen verschieden Elemente in einer übersichtlichen Art und Weise anzuordnen(, ohne an Funktionalität zu verlieren).
 
-### `npm run eject`
+### `Kontakt`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Hier befindet sich ein Formular, falls man Kontakt zu der Initiative aufnehmen möchte.\
+Bei Hover wird die Formularkomponente skaliert und mit einer Schattierung versehen, bei Klick wird diese Veränderung festgesetzt.\
+Beim Ausfüllen des Formulars fährt beim sukzessiven Klicken auf die Input-Felder ein Panda auf dem Fahrrad ins Bild. Beim letzten Textfeld rast er mit einem Wheelie davon.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+(Der `Submit` ist nicht funktional und führt zu einem 404-Fehhler, also am besten nicht klicken)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Shop`
 
-## Learn More
+Für den Shop habe ich mit Logos und Illustrationen meiner Kommilitoninnen ein paar Merch-Items entworfen.\
+Die Shirts sind schlicht gehalten, das Polygon-Logo als Motiv auf der Brust.\
+Der Hoodie mit etwas verspieltererem Motiv - ein Panda der an etwas Bambus knabbert.\
+Die Tote-Bags mit großen Pandamie Schriftzug  und einem faulen Panda der sich darauf ausruht.\
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bei Hover über die Shop-Elemente wird der Beschreibungstext von unten hochgefahren, ein Schatten-Gradient dient zur besser Lesbarkeit.\
+Unter der überschrift wird wieder ein Unterstrich gezogen, der sich genau an die Länge des Item-Titels anpasst.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
