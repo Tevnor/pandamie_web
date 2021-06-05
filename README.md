@@ -4,7 +4,7 @@ Gruppe 8, Eigenanteil von:\
 Tevin Zielke
 @tz024
 
-Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln. Ein bisschen Schauspielerei kam auch noch dazu.
+Meine Aufgabe war es die Webseite für unsere Panda-Initiative zu entwickeln, Merch zu designen und die Texte der Webseite zu schreiben (exkl.Intro). Ein bisschen Schauspielerei kam auch noch dazu.
 
 ## Pandamie Webseite
 
